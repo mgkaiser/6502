@@ -3,6 +3,7 @@
 `include "ALU.v"
 `include "cpu_65c02.v"
 `include "ram.v"
+`include "rom.v"
 
 module top(clk, reset, hsync, vsync, rgb);
 
