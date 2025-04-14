@@ -1,5 +1,7 @@
 
 `include "hvsync_generator.v"
+`include "ALU.v"
+`include "cpu_65c02.v"
 
 module top(clk, reset, hsync, vsync, rgb);
 
