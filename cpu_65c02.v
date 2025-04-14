@@ -50,7 +50,7 @@
 
 module cpu_65c02( phi2, reset, AB, DI_s1, DO, WE, IRQ, NMI, RDY, SYNC );
 
-input phi2;              // CPU clock
+input phi2;             // CPU clock
 input reset;            // reset signal
 output reg [15:0] AB;   // address bus
 input [7:0] DI_s1;      // data in, read bus
